@@ -37,5 +37,52 @@
             <input type="radio" name="genre" value="Jazz">Jazz
         </p>
     </form>
+    <h1>Check Box Form Structure</h1>
+    <form action="http://www.example.com/login.php" method="post">
+        <p>Please select your favourite music service(s):
+            <br>
+            <input type="checkbox" name="service" value="iTunes" checked="checked"> iTunes
+            <input type="checkbox" name="service" value="lastfm">Last.fm
+            <input type="checkbox" name="service" value="spotify">Spotify
+        </p>
+    </form>
+    <h1>Drop Down List Box Form Structure</h1>
+    <form action="http://www.example.com/login.php" method="post">
+        <p>What device do you listen to music on?</p>
+        <select name="devices">
+            <option value="ipods">iPod</option>
+            <option value="radio">Radio</option>
+            <option value="computer">Computer</option>
+        </select>
+    </form>
+    <h1>File Input Box Form Structure</h1>
+    <form action="http://www.example.com/upload.php" method="post">
+        <p>Upload your song in MP3 format:</p>
+        <input type="file" name="user-song"><br>
+        <input type="submit" value="Upload">
+    </form>
+    <h1>Submit Button Form Structure</h1>
+    <form action="http://www.example.com/subscribe.php" method="post">
+        <p>Subscribe to our email list</p>
+        <input type="text" name="email">
+        <input type="submit" name="subscribe" value="subscribe">
+    </form>
+    <h1>Image Button Form Structure</h1>
+    <form action="http://www.example.com/subscribe.php">
+        <p>Subscribe to our Email list</p>
+        <input type="text" name="email">
+        <input type="image" src="images/Untitled.jpg" width="100" height="80">
+    </form>
+    <h1>Grouping Form Elements Form Structure</h1>
+    <fieldset>
+        <legend>Contact Details</legend>
+        <label>Email: <br>
+        <input type="text" name="email"></label><br>
+        <label >Mobile: <br>
+        <input type="text" name="mobile"></label><br>
+        <label >Telephone: <br>
+            <input type="text" name="telephone">
+        </label>
+    </fieldset>
 </body>
 </html>
