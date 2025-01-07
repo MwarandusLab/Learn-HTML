@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Structure</h1>
+    <form action="https://www.example.com/subscribe.php" method="get">
+        <p>This is where the form control will appear</p>
+    </form>
+    <h1>Text Input Form Structure</h1>
+    <form action="http://www.example.com/login.php">
+        <p>Username: <input type="text" name="username" size="20" maxlength="30"></p>
+    </form>
+    <h1>Password Input form Structure</h1>
+    <form action="http://www.example.com/login.php" method="post">
+        <p>Username: 
+            <input type="text" name="username" maxlength="30">
+        </p>
+        <p>Password:
+            <input type="password" name="password" maxlength="50">
+        </p>
+    </form>
+    <h1>Text Area Input form Structure</h1>
+    <form action="http://www.example.com/login.php" method="post">
+        <p>What did you think about this gig?</p>
+        <textarea name="comments" cols="30" rows="4">Enter your comments...</textarea>
+    </form>
+    <h1>Radio Button Form Structure</h1>
+    <form action="http://www.example.com/login.php" method="post">
+        <p>Please Select Your Favourite Genre:
+            <br>
+            <input type="radio" name="genre" value="rock">Rock
+            <input type="radio" name="genre" value="pop">Pop
+            <input type="radio" name="genre" value="Jazz">Jazz
+        </p>
+    </form>
+</body>
+</html>
